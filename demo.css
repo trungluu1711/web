@@ -1,0 +1,233 @@
+.logo {
+    width:250px;
+}
+.wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: aqua;
+}
+.clear{
+    clear: both;
+}
+*{
+    box-sizing: border-box;
+}
+/* #navbar {
+    background-color: #0d1524;
+}
+#navbar ul {
+    list-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin: 10px;
+}
+#navbar ul li{
+    display: inline;
+    margin-right: 20px;
+}
+#navbar ul a:hover{
+    color:red;
+}
+#navbar ul li a {
+    color: white;
+    font-size:15px;
+    text-decoration: none;
+    margin: 15px;
+    cursor: pointer;
+} */
+
+#navbar{
+    background-color: #0d1524;
+    padding: 10px;
+}
+#navbar ul{
+    list-style: none;
+    margin: 0px 0px;
+    padding-left: 0px;
+}
+#navbar ul li{
+    display: inline;
+    margin-right: 20px;
+}
+#navbar ul li a{
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: red;
+}
+#carousel {
+    height: 450px;
+    margin-top: 10px;
+    background-image:url('D:/Front end course/CSS/img/slider_1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+}
+/* .intro-text{
+    font-size:20px ;
+    color: grey;
+    font-weight: bold;
+    line-height: 30px;
+    letter-spacing: 2px;
+    text-indent: 40px;
+    text-align: justify;
+} 
+.intro-left,.intro-right{
+    float:left;
+    width: 50%;
+    height: 700px;
+}
+.intro-item{
+    float: left;
+    width: 100%;
+    padding: 10px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-clip: content-box;
+}
+.intro-item-1{
+    width: 50%;
+    height: 45%;
+    background-image:url(../CSS/img/img_nha_tam.jpg);
+}
+.intro-item-2{
+    width: 50%;
+    height: 45%;
+    background-image:url(../CSS/img/img_sofa.jpg);
+}
+.intro-item-3{
+    height: 55%;
+    background-image:url(../CSS/img/img_noi_that.jpg);
+}
+.intro-item-4{
+    height: 55%;
+    background-image:url(../CSS/img/img_phong_khach.jpg);
+}
+.intro-item-5{
+    height: 55%;
+    background-image:url(../CSS/img/img_van_phong.jpg);
+} */
+.intro p {
+    font-size: 18px;
+    text-indent: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.intro-left, .intro-right{
+    float: left;
+    width: 50%;
+    height: 700px;
+}
+.intro-item{
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    padding: 10px 10px;
+    background-clip: content-box;
+}
+.intro-item-1{
+    background-image: url(../CSS/img/img_nha_tam.jpg);
+    height: 45%;
+    width: 50%;
+}
+.intro-item-2{
+    background-image: url(../CSS/img/img_sofa.jpg);
+    height: 45%;
+    width: 50%;
+}
+.intro-item-3{
+    background-image: url(../CSS/img/img_noi_that.jpg);
+    height: 55%
+}
+.intro-item-4{
+    background-image: url(../CSS/img/img_phong_khach.jpg);
+    height: 50%
+}
+.intro-item-5{
+    background-image: url(../CSS/img/img_van_phong.jpg);
+    height: 50%
+}
+#product>h1{
+    text-align: center
+}
+.product-item{
+    width: 25%;
+    padding: 0px 10px;
+    float:left;
+    box-sizing: border-box;
+}
+.item-img{
+    max-width: 100%;
+}
+.item-title{
+    font-size: 25px;
+    font-weight: bold;
+}
+.item-content{
+    font-size: 17px;
+    color: black;
+}
+.item-bth{
+    background-color: red;
+    border: 1px solid red;
+    color:white
+}
+#banner{
+    height:400px;
+    background-image: url(../CSS/img/nature.jpg);
+    background-size: cover;
+    position: relative;
+    margin-top: 15px;
+}
+#banner .saleoff{
+    
+    height: 300px;
+    width:300px;
+    background-color: rgba(255, 0, 0, 0.6);
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50% ;
+    position: absolute;
+    top:10%;
+    left:15%;
+}
+#banner .saleoff p:nth-child(2){
+    font-size: 50px;
+    margin:10px 0;
+}
+#banner .saleoff h2, #banner .saleoff p{
+    color: white;
+    text-align: center;
+}
+#banner .saleoff h2{
+    margin-top: 50px;
+}
+.service{
+    width: 60%;
+    margin: 20px auto;
+}
+.service-item{
+    width: 33.333333%;
+    float: left;
+    text-align: center;
+}
+.service-item i{
+    font-size: 40px;
+    color: black;
+}
+.foter {
+    width: 100%;
+    padding-top: 10px;
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}

@@ -1,0 +1,249 @@
+.logo {
+    margin-left:40px ;
+    width: 40px;
+    padding-top: 5px;
+}
+.wrapper { 
+    width: 80%;
+    margin: auto;
+    background-color: hsl(33, 35%, 94%);
+}
+.clear{
+    clear: both;
+}
+*{
+    box-sizing:border-box;
+}
+#navbar{
+    background-color:rgb(253, 215, 217);
+    padding: 2px;
+}
+#navbar ul li{
+    display: inline;
+    margin-right: 25px;
+}
+#navbar ul li a{
+    color: black;
+    cursor: pointer;
+    text-decoration:none;
+}
+#navbar ul li a:hover{
+    color: white;
+}
+#carousel{ 
+    height: 450px;
+    margin-top:-10px;
+    background-image:url('./img-1/img/BG.png');
+    border-bottom-left-radius: 32%;
+    border-bottom-right-radius: 32%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    background-clip:border-box;
+}
+.product-item{
+    width:22.5%;
+    padding: 15px ;
+    border: 1px solid whitesmoke;
+    text-align: center;
+    margin-top: -100px;
+    margin-left: 24px;
+    border-radius:7%;
+    float: left;
+    background-color:whitesmoke;
+}
+.item-img{
+    height: 60px;
+    width: 60px;
+}
+.item-title{
+    font-size: 15px;
+    font-weight: bold;
+    color:grey;
+}
+.item-content{
+    color: grey;
+    line-height: 1;
+}
+.hinh{
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+    font-weight: bold;
+}
+.hinh p{
+    line-height: 0;
+}
+#product-bottom{
+    text-align: center;
+    margin-top: 70px;
+}
+.product-item-son{
+    width:22.5%;
+    padding: 30px;
+    margin-bottom: 24px;
+    border: 1px solid whitesmoke;
+    margin-left: 24px;
+    border-radius:7%;
+    background-color:whitesmoke;
+    float: left;
+    position: relative;
+}
+.icon-product{
+    color: red;
+    position: absolute;
+    top :44.5px;
+    left: 185px;
+    border: 1px solid rgba(255, 255, 255, 0.7);
+    padding: 8.5px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 7px;
+}
+.product-img{
+    height: 135px;
+    width: 200px;
+    border-radius: 7%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+}
+.btn{
+    margin-top: 12px;
+    height:40px;
+    width: 80%;
+    background-color:rgb(207, 207, 207);
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 25px;
+    color: grey;
+}
+.product-title{
+    padding-top: 13px;
+    font-size: 15px;
+    line-height: 5px;
+}
+.product-item-son p {
+    font-size: 12px;
+    font-weight: gray;
+    color: gray;
+    line-height: 20px;
+}
+.viewall{
+    margin-top: -5px;
+    height:40px;
+    width: 170px;
+    border: 1px solid red;
+    color:red;
+    background-color: hsl(33, 35%, 94%);
+    border-radius: 25px;
+}
+#banner{
+    margin-top: 15px;
+    background-color: rgb(253, 215, 217);
+}
+.banner-left{
+    float: left;
+    width: 45%;
+}
+.banner-right{
+    float: left;
+    width: 55%;
+    position: relative;
+}
+.bannertitle{
+    font-weight: bold;
+}
+.banner-img{
+    width: 850px;
+    height: 300px;
+    background-image: url(../CSS/img-1/img/mask.png);
+}
+.banner-img img{
+    width: 350px;
+    height: 250px;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+.banner-inf{
+    position: absolute;
+    top :50px;
+    left:80px;
+}
+.banner-icon{
+    margin-top: -20px;
+    display: inline-flex;
+    position: absolute;
+    top :150px;
+    left:80px
+}
+.content{
+    font-size: 14px;
+}
+.download{
+    font-weight: bold;
+}
+.followus{
+    font-weight: bold;
+    margin-left: 30px;
+}
+.app1{
+    width: 120px;
+    height:30px;
+    margin-top: 10px;
+}
+.app2{
+    width: 120px;
+    height:30px;
+    margin-top: 10px;
+}
+.icon1{
+    margin-top: 10px;
+    font-size: 25px;
+    color: coral;
+    margin-left: 30px;
+}
+#footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background-color:rgb(253, 215, 217);
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+.foter{
+    float: left;
+    display:inline-flex;
+    margin-top: 60px;
+    margin-left:50px;
+    margin-bottom: 30px;
+}
+.footer-title-1{
+    width: 40%;
+    margin-right: 40px;
+}
+.footer-title-1 p{
+    line-height: 20px;
+    font-size: 14px;
+}
+.footer-title-2{
+    margin-right: 80px;
+}
+.footer-title-2 p{
+    line-height: 15px;
+    font-size: 14px;
+}
+.footer-title-3{
+    margin-right: 80px;
+}
+.footer-title-3 p{
+    line-height: 15px;
+    font-size: 14px;
+}
+.footer-title-4 p{
+    line-height: 15px;
+    font-size: 14px;
+}
+.i{
+    text-align: center;
+    font-size: 14px;
+}
+
